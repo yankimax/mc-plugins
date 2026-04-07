@@ -1,0 +1,26 @@
+{
+  "id": "spine_emotion_editor",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "character_manager",
+    "gui_flutter"
+  ],
+  "name": {
+    "en": "Spine Emotion Editor",
+    "ru": "Редактор эмоций Spine"
+  },
+  "short-description": {
+    "en": "Edit Spine emotion and animation mappings inside MinaChan",
+    "ru": "Редактирование эмоций и анимаций Spine прямо в MinaChan"
+  },
+  "author": "OpenAI",
+  "site": "https://openai.com",
+  "description": {
+    "en": "Opens an in-app editor for Spine animation profiles with preview and save support.",
+    "ru": "Открывает встроенный редактор Spine-профилей с предпросмотром и сохранением."
+  }
+}

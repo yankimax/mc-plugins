@@ -1,0 +1,25 @@
+{
+  "id": "window_commentary",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "system_runtime",
+    "talking_system"
+  ],
+  "name": {
+    "en": "Window Commentary",
+    "ru": "Комментарии по окнам"
+  },
+  "short-description": {
+    "en": "Comments on open windows from time to time",
+    "ru": "Периодически комментирует открытые окна"
+  },
+  "author": "MinaChan Team",
+  "description": {
+    "en": "Reads open window titles through the unified system_runtime bridge and says short random comments based on the current app mix.",
+    "ru": "Считывает заголовки окон через единый bridge system_runtime и произносит короткие комментарии по текущему набору приложений."
+  }
+}

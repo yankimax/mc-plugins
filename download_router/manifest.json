@@ -1,0 +1,25 @@
+{
+  "id": "download_router",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "library",
+  "deps": [
+    "speech_command_system",
+    "talking_system"
+  ],
+  "name": {
+    "en": "Download Router",
+    "ru": "Маршрутизатор скачивания"
+  },
+  "short-description": {
+    "en": "Routes generic download-by-link chat commands to site-specific plugins",
+    "ru": "Маршрутизирует общие команды скачивания по ссылке в специализированные плагины"
+  },
+  "author": "MinaChan Team",
+  "description": {
+    "en": "Registers the generic 'download by link' chat command and forwards supported links through the runtime alternatives chain to downloader plugins.",
+    "ru": "Регистрирует общую команду скачивания по ссылке и передает поддержанные ссылки через runtime alternatives-цепочку в плагины-загрузчики."
+  }
+}

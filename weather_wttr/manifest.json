@@ -1,0 +1,25 @@
+{
+  "id": "weather_wttr",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "talking_system"
+  ],
+  "name": {
+    "en": "Weather wttr.in",
+    "ru": "Погода wttr.in"
+  },
+  "short-description": {
+    "en": "Weather forecast via wttr.in",
+    "ru": "Прогноз погоды через wttr.in"
+  },
+  "author": "Maksim Yanin",
+  "site": "https://github.com/yankimax",
+  "description": {
+    "en": "Weather forecast via wttr.in",
+    "ru": "Прогноз погоды через wttr.in"
+  }
+}

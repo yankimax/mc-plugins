@@ -1,0 +1,22 @@
+{
+  "id": "organizer_core",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "library",
+  "deps": [],
+  "name": {
+    "en": "Organizer Core",
+    "ru": "Ядро Органайзера"
+  },
+  "short-description": {
+    "en": "Storage and API core for organizer ecosystem plugins",
+    "ru": "Хранилище и API-ядро для экосистемы плагинов органайзера"
+  },
+  "author": "MinaChan Project",
+  "description": {
+    "en": "Provides dynamic dictionaries, item CRUD, external source upsert, and upcoming/started notifications via events",
+    "ru": "Предоставляет динамические справочники, CRUD элементов, upsert внешних источников и уведомления upcoming/started через события"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "reactions",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "talking_system"
+  ],
+  "name": {
+    "en": "Reactions",
+    "ru": "Реакции"
+  },
+  "short-description": {
+    "en": "Touch/click reactions with Live2D-aware expressive features",
+    "ru": "Реакции на касания/клики с поддержкой выразительных Live2D-фич"
+  },
+  "author": "Maksim Yanin",
+  "site": "https://github.com/yankimax",
+  "description": {
+    "en": "Maps GUI interaction events to intents and triggers context-aware Live2D features/emotions when available.",
+    "ru": "Сопоставляет GUI-события взаимодействия с intent и при наличии Live2D запускает контекстные фичи/эмоции."
+  }
+}

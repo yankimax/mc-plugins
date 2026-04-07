@@ -1,0 +1,25 @@
+{
+  "id": "browser_chat",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "speech_command_system",
+    "talking_system"
+  ],
+  "name": {
+    "en": "Browser Chat",
+    "ru": "Browser Chat"
+  },
+  "short-description": {
+    "en": "Control browser tabs from MinaChan chat",
+    "ru": "Управление вкладками браузера из чата MinaChan"
+  },
+  "author": "MinaChan Team",
+  "description": {
+    "en": "Uses the MinaChan browser bridge to list, open, switch and close browser tabs from chat commands.",
+    "ru": "Использует MinaChan Browser Bridge, чтобы показывать, открывать, переключать и закрывать вкладки браузера через команды чата."
+  }
+}

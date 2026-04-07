@@ -1,0 +1,26 @@
+{
+  "id": "os_interaction",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "library",
+  "deps": [
+    "system_runtime",
+    "talking_system"
+  ],
+  "name": {
+    "en": "OS Interaction",
+    "ru": "Системное управление"
+  },
+  "short-description": {
+    "en": "Open links/apps and close apps via unified system runtime capabilities",
+    "ru": "Открытие ссылок/приложений и закрытие приложений через capability-контракт system_runtime"
+  },
+  "author": "Maksim Yanin",
+  "site": "https://github.com/yankimax",
+  "description": {
+    "en": "Open links/apps and close apps through system_runtime adapters with graceful degradation",
+    "ru": "Открывает ссылки/приложения и закрывает процессы через адаптеры system_runtime с мягкой деградацией"
+  }
+}

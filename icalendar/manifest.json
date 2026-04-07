@@ -1,0 +1,26 @@
+{
+  "id": "icalendar",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "organizer_core",
+    "talking_system"
+  ],
+  "name": {
+    "en": "iCalendar Sync",
+    "ru": "Синхронизация iCalendar"
+  },
+  "short-description": {
+    "en": "Sync iCal calendars via organizer_core API",
+    "ru": "Синхронизация iCal-календарей через API organizer_core"
+  },
+  "author": "Maksim Yanin",
+  "site": "https://github.com/yankimax",
+  "description": {
+    "en": "Bidirectional iCal sync engine built on organizer_core API with recurrence support",
+    "ru": "Движок синхронизации iCal на основе API organizer_core с поддержкой повторов"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ssh_chat",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "os_interaction",
+    "speech_command_system",
+    "talking_system"
+  ],
+  "name": {
+    "en": "SSH Chat",
+    "ru": "SSH Chat"
+  },
+  "short-description": {
+    "en": "Open SSH sessions and SSH config from chat commands",
+    "ru": "Открывает SSH-сессии и SSH config из команд в чате"
+  },
+  "author": "MinaChan Team",
+  "description": {
+    "en": "Handles chat commands like 'ssh 10.0.0.1', 'ssh 10.0.0.1 2222', 'ssh host-name' and 'ssh config'.",
+    "ru": "Обрабатывает команды из чата вроде 'ssh 10.0.0.1', 'ssh 10.0.0.1 2222', 'ssh host-name' и 'ssh config'."
+  }
+}

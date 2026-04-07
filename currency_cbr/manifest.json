@@ -1,0 +1,26 @@
+{
+  "id": "currency_cbr",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "conversion_router",
+    "talking_system"
+  ],
+  "name": {
+    "en": "Currency CBR",
+    "ru": "Валюты ЦБ РФ"
+  },
+  "short-description": {
+    "en": "RUB conversion by Central Bank of Russia rates",
+    "ru": "Конвертация валют по курсам ЦБ РФ"
+  },
+  "author": "Maksim Yanin",
+  "site": "https://github.com/yankimax",
+  "description": {
+    "en": "RUB conversion by Central Bank of Russia rates",
+    "ru": "Конвертация валют по курсам ЦБ РФ"
+  }
+}

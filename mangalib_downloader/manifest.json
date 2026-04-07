@@ -1,0 +1,26 @@
+{
+  "id": "mangalib_downloader",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "download_router",
+    "speech_command_system",
+    "talking_system"
+  ],
+  "name": {
+    "en": "MangaLib Downloader",
+    "ru": "Загрузчик MangaLib"
+  },
+  "short-description": {
+    "en": "Downloads manga and ranobe from MangaLib / RanobeLib",
+    "ru": "Скачивает мангу и ранобэ с MangaLib / RanobeLib"
+  },
+  "author": "MinaChan Team",
+  "description": {
+    "en": "Detects MangaLib and RanobeLib pages in the browser, hints about download support, and saves manga chapters or ranobe FB2 volumes into the configured folder.",
+    "ru": "Определяет страницы MangaLib и RanobeLib в браузере, подсказывает про поддержку скачивания и сохраняет главы манги или тома ранобэ в FB2 в выбранную папку."
+  }
+}

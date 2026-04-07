@@ -1,0 +1,25 @@
+{
+  "id": "emotion_menu",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "gui_flutter"
+  ],
+  "name": {
+    "en": "Emotion Menu",
+    "ru": "Меню эмоций"
+  },
+  "short-description": {
+    "en": "Dynamic emotion test menu for character skin",
+    "ru": "Динамическое меню теста эмоций для скина"
+  },
+  "author": "Maksim Yanin",
+  "site": "https://github.com/yankimax",
+  "description": {
+    "en": "Dynamic emotion test menu for character skin",
+    "ru": "Динамическое меню теста эмоций для скина"
+  }
+}

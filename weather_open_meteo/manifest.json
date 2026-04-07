@@ -1,0 +1,25 @@
+{
+  "id": "weather_open_meteo",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "talking_system"
+  ],
+  "name": {
+    "en": "Weather Open-Meteo",
+    "ru": "Погода Open-Meteo"
+  },
+  "short-description": {
+    "en": "Weather forecast via Open-Meteo",
+    "ru": "Прогноз погоды через Open-Meteo"
+  },
+  "author": "Maksim Yanin",
+  "site": "https://github.com/yankimax",
+  "description": {
+    "en": "Alternative weather provider with Open-Meteo geocoding and forecast API",
+    "ru": "Альтернативный провайдер погоды на Open-Meteo (геокодер и прогноз)"
+  }
+}

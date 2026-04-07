@@ -1,0 +1,24 @@
+{
+  "id": "browser_incognito_notifier",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "talking_system"
+  ],
+  "name": {
+    "en": "Browser Incognito Notifier",
+    "ru": "Уведомления об инкогнито"
+  },
+  "short-description": {
+    "en": "Comments when a new incognito browser tab appears",
+    "ru": "Комментирует появление новой вкладки инкогнито"
+  },
+  "author": "MinaChan Team",
+  "description": {
+    "en": "Listens to MinaChan Browser Bridge tab snapshots and says a phrase when a new incognito tab is opened.",
+    "ru": "Слушает снимки вкладок от MinaChan Browser Bridge и произносит фразу, когда открывается новая вкладка инкогнито."
+  }
+}

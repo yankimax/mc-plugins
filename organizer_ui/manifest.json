@@ -1,0 +1,24 @@
+{
+  "id": "organizer_ui",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "organizer_core"
+  ],
+  "name": {
+    "en": "Organizer UI",
+    "ru": "Organizer UI"
+  },
+  "short-description": {
+    "en": "Dedicated organizer window powered by organizer_core API",
+    "ru": "Отдельное окно органайзера на базе API organizer_core"
+  },
+  "author": "MinaChan Project",
+  "description": {
+    "en": "Provides a custom organizer window with item CRUD, filters, dictionaries editor, and organizer_core notification settings management.",
+    "ru": "Предоставляет отдельное окно органайзера с CRUD задач, фильтрами, редактором словарей и управлением настройками уведомлений organizer_core."
+  }
+}

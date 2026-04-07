@@ -1,0 +1,26 @@
+{
+  "id": "calculator",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "conversion_router",
+    "talking_system"
+  ],
+  "name": {
+    "en": "Calculator",
+    "ru": "Калькулятор"
+  },
+  "short-description": {
+    "en": "External calculator module",
+    "ru": "Внешний модуль калькулятора"
+  },
+  "author": "Maksim Yanin",
+  "site": "https://github.com/yankimax",
+  "description": {
+    "en": "External calculator module",
+    "ru": "Внешний модуль калькулятора"
+  }
+}

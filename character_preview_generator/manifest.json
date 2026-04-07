@@ -1,0 +1,23 @@
+{
+  "id": "character_preview_generator",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [],
+  "name": {
+    "en": "Character Preview Generator",
+    "ru": "Генератор превью персонажей"
+  },
+  "short-description": {
+    "en": "Generates normalized preview.png files for character asset packs",
+    "ru": "Генерирует нормализованные preview.png для паков персонажей"
+  },
+  "author": "OpenAI",
+  "site": "https://openai.com",
+  "description": {
+    "en": "Scans Spine, Live2D, and image-set characters, writes square preview.png files into their asset folders, and keeps previews ready for UI pickers.",
+    "ru": "Сканирует Spine, Live2D и image-set персонажей, пишет квадратные preview.png в их каталоги и готовит превью для последующего использования в UI."
+  }
+}

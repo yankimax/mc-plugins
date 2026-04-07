@@ -1,0 +1,26 @@
+{
+  "id": "organizer_chat",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "organizer_core",
+    "speech_command_system",
+    "talking_system"
+  ],
+  "name": {
+    "en": "Organizer Chat",
+    "ru": "Organizer Chat"
+  },
+  "short-description": {
+    "en": "Chat assistant for organizer tasks",
+    "ru": "Чат-ассистент для задач органайзера"
+  },
+  "author": "MinaChan Project",
+  "description": {
+    "en": "Provides chat commands to list due tasks, suggest next task, and create organizer items.",
+    "ru": "Добавляет чат-команды для списка задач по срокам, подсказки следующего шага и создания задач."
+  }
+}

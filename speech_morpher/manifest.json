@@ -1,0 +1,25 @@
+{
+  "id": "speech_morpher",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "talking_system"
+  ],
+  "name": {
+    "en": "Speech Morpher",
+    "ru": "Трансформация речи"
+  },
+  "short-description": {
+    "en": "Modular speech pipeline morphers for MinaChan:request-say",
+    "ru": "Модульные морферы речевого пайплайна MinaChan:request-say"
+  },
+  "author": "Maksim Yanin",
+  "site": "https://github.com/yankimax",
+  "description": {
+    "en": "Transforms resolved phrases in alternatives chain with per-module modes and settings panel",
+    "ru": "Трансформирует готовые фразы в alternatives-цепочке с режимами модулей и панелью настроек"
+  }
+}

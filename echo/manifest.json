@@ -1,0 +1,21 @@
+{
+  "id": "echo",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [],
+  "name": {
+    "en": "Echo Python",
+    "ru": "Echo Python"
+  },
+  "short-description": {
+    "en": "External plugin sample for MinaChan runtime"
+  },
+  "author": "Maksim Yanin",
+  "site": "https://github.com/yankimax",
+  "description": {
+    "en": "External plugin sample for MinaChan runtime"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chat_sugar",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "talking_system"
+  ],
+  "name": {
+    "en": "Chat Toys",
+    "ru": "Чат-игрушки"
+  },
+  "short-description": {
+    "en": "Small chat toys: random numbers, choices, date/time, dice, roulette",
+    "ru": "Небольшие чат-игрушки: случайные числа, выбор, дата/время, кубик, рулетка"
+  },
+  "author": "Maksim Yanin",
+  "site": "https://github.com/yankimax",
+  "description": {
+    "en": "Small chat toys: random numbers, choices, date/time, dice, roulette",
+    "ru": "Небольшие чат-игрушки: случайные числа, выбор, дата/время, кубик, рулетка"
+  }
+}

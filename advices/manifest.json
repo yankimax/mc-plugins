@@ -1,0 +1,25 @@
+{
+  "id": "advices",
+  "type": "Python",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "talking_system"
+  ],
+  "name": {
+    "en": "App Advices",
+    "ru": "Советы по приложению"
+  },
+  "short-description": {
+    "en": "Character-based random usage tips",
+    "ru": "Персонаже-зависимые случайные советы по использованию"
+  },
+  "author": "Maksim Yanin",
+  "site": "https://github.com/yankimax",
+  "description": {
+    "en": "Requests random app usage advice from character phrase packs",
+    "ru": "Запрашивает случайные советы по использованию из фраз персонажа"
+  }
+}
