@@ -1,6 +1,9 @@
 {
   "id": "currency_cbr",
+  "manifestVersion": 2,
   "type": "Python",
+  "version": "1.0.0",
+  "runtimeApi": "3",
   "platforms": [
     "desktop"
   ],
