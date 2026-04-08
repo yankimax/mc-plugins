@@ -7,8 +7,14 @@ import tempfile
 from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'sdk_python'))
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'tools'))
+_PLUGIN_DIR = os.path.dirname(__file__)
+_SDK_PYTHON_DIR = os.environ.get('MINACHAN_SDK_PYTHON_DIR', '').strip()
+
+sys.path.insert(0, _PLUGIN_DIR)
+if _SDK_PYTHON_DIR:
+    sys.path.insert(0, _SDK_PYTHON_DIR)
+else:
+    sys.path.insert(0, os.path.join(_PLUGIN_DIR, '..', 'sdk_python'))
 
 from minachan_sdk import MinaChanPlugin, run_plugin
 import character_preview_generator

@@ -1,8 +1,17 @@
 import importlib.machinery
 import importlib.util
+import os
 import pathlib
 import sys
 import unittest
+
+_SDK_DIR = (
+    pathlib.Path(__file__).resolve().parents[2]
+    / 'minachan_app'
+    / 'plugins'
+    / 'sdk_python'
+)
+os.environ.setdefault('MINACHAN_SDK_PYTHON_DIR', str(_SDK_DIR))
 
 
 def _load_plugin_module():
