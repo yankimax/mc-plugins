@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Chat Toys",
+    "ru": "Чат-игрушки"
+  },
+  "description": {
+    "en": "Small chat toys: random numbers, choices, date/time, dice, roulette",
+    "ru": "Небольшие чат-игрушки: случайные числа, выбор, дата/время, кубик, рулетка"
+  },
+  "author": "Maksim Yanin"
+}

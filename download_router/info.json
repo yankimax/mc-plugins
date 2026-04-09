@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Download Router",
+    "ru": "Маршрутизатор скачивания"
+  },
+  "description": {
+    "en": "Registers the generic 'download by link' chat command and forwards supported links through the runtime alternatives chain to downloader plugins.",
+    "ru": "Регистрирует общую команду скачивания по ссылке и передает поддержанные ссылки через runtime alternatives-цепочку в плагины-загрузчики."
+  },
+  "author": "MinaChan Team"
+}

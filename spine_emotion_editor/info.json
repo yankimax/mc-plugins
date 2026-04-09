@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Spine Emotion Editor",
+    "ru": "Редактор эмоций Spine"
+  },
+  "description": {
+    "en": "Opens an in-app editor for Spine animation profiles with preview and save support.",
+    "ru": "Открывает встроенный редактор Spine-профилей с предпросмотром и сохранением."
+  },
+  "author": "OpenAI"
+}

@@ -6,7 +6,7 @@ import unittest
 
 
 def _load_plugin_module():
-    plugin_path = pathlib.Path(__file__).with_name('plugin.py3')
+    plugin_path = pathlib.Path(__file__).resolve().parent / 'files' / 'speech_morpher' / 'plugin.py3'
     loader = importlib.machinery.SourceFileLoader('speech_morpher_plugin', str(plugin_path))
     spec = importlib.util.spec_from_loader(loader.name, loader)
     if spec is None:
@@ -33,7 +33,9 @@ class SpeechMorpherPluginContractTest(unittest.TestCase):
         self.props = {}
 
         self.plugin.info = {
-            'pluginDirPath': str(pathlib.Path(__file__).parent),
+            'pluginDirPath': str(
+                pathlib.Path(__file__).resolve().parent / 'files' / 'speech_morpher'
+            ),
             'rootDirPath': str(pathlib.Path(__file__).resolve().parents[3]),
             'locale': 'ru',
             'id': 'speech_morpher',

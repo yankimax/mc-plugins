@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Organizer UI",
+    "ru": "Organizer UI"
+  },
+  "description": {
+    "en": "Provides a custom organizer window with item CRUD, filters, dictionaries editor, and organizer_core notification settings management.",
+    "ru": "Предоставляет отдельное окно органайзера с CRUD задач, фильтрами, редактором словарей и управлением настройками уведомлений organizer_core."
+  },
+  "author": "MinaChan Project"
+}

@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Weather Open-Meteo",
+    "ru": "Погода Open-Meteo"
+  },
+  "description": {
+    "en": "Alternative weather provider with Open-Meteo geocoding and forecast API",
+    "ru": "Альтернативный провайдер погоды на Open-Meteo (геокодер и прогноз)"
+  },
+  "author": "Maksim Yanin"
+}

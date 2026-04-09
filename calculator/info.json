@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Calculator",
+    "ru": "Калькулятор"
+  },
+  "description": {
+    "en": "External calculator module",
+    "ru": "Внешний модуль калькулятора"
+  },
+  "author": "Maksim Yanin"
+}

@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Currency NBS",
+    "ru": "Валюты НБС"
+  },
+  "description": {
+    "en": "Currency conversion by National Bank of Serbia rates",
+    "ru": "Конвертация валют по курсам НБС (Сербия)"
+  },
+  "author": "Maksim Yanin"
+}

@@ -6,7 +6,7 @@ import unittest
 
 
 def _load_plugin_module():
-    plugin_path = pathlib.Path(__file__).with_name('plugin.py3')
+    plugin_path = pathlib.Path(__file__).resolve().parent / 'files' / 'download_router' / 'plugin.py3'
     loader = importlib.machinery.SourceFileLoader('download_router_plugin', str(plugin_path))
     spec = importlib.util.spec_from_loader(loader.name, loader)
     if spec is None:

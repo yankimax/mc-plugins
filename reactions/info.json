@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Reactions",
+    "ru": "Реакции"
+  },
+  "description": {
+    "en": "Maps GUI interaction events to intents and triggers context-aware Live2D features/emotions when available.",
+    "ru": "Сопоставляет GUI-события взаимодействия с intent и при наличии Live2D запускает контекстные фичи/эмоции."
+  },
+  "author": "Maksim Yanin"
+}

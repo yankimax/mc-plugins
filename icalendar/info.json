@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "iCalendar Sync",
+    "ru": "Синхронизация iCalendar"
+  },
+  "description": {
+    "en": "Bidirectional iCal sync engine built on organizer_core API with recurrence support",
+    "ru": "Движок синхронизации iCal на основе API organizer_core с поддержкой повторов"
+  },
+  "author": "Maksim Yanin"
+}

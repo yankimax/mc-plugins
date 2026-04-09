@@ -6,7 +6,7 @@ import unittest
 
 
 def _load_plugin_module():
-    plugin_path = pathlib.Path(__file__).with_name('plugin.py3')
+    plugin_path = pathlib.Path(__file__).resolve().parent / 'files' / 'window_commentary' / 'plugin.py3'
     loader = importlib.machinery.SourceFileLoader('window_commentary_plugin', str(plugin_path))
     spec = importlib.util.spec_from_loader(loader.name, loader)
     if spec is None:

@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Daytime Filter",
+    "ru": "Дневной фильтр"
+  },
+  "description": {
+    "en": "Adjust GUI filter by time",
+    "ru": "Меняет GUI-фильтр по времени"
+  },
+  "author": "Maksim Yanin"
+}

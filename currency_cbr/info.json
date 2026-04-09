@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Currency CBR",
+    "ru": "Валюты ЦБ РФ"
+  },
+  "description": {
+    "en": "RUB conversion by Central Bank of Russia rates",
+    "ru": "Конвертация валют по курсам ЦБ РФ"
+  },
+  "author": "Maksim Yanin"
+}

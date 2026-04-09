@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Organizer Chat",
+    "ru": "Organizer Chat"
+  },
+  "description": {
+    "en": "Provides chat commands to list due tasks, suggest next task, and create organizer items.",
+    "ru": "Добавляет чат-команды для списка задач по срокам, подсказки следующего шага и создания задач."
+  },
+  "author": "MinaChan Project"
+}

@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Browser Incognito Notifier",
+    "ru": "Уведомления об инкогнито"
+  },
+  "description": {
+    "en": "Listens to MinaChan Browser Bridge tab snapshots and says a phrase when a new incognito tab is opened.",
+    "ru": "Слушает снимки вкладок от MinaChan Browser Bridge и произносит фразу, когда открывается новая вкладка инкогнито."
+  },
+  "author": "MinaChan Team"
+}

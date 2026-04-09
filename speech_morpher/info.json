@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Speech Morpher",
+    "ru": "Трансформация речи"
+  },
+  "description": {
+    "en": "Transforms resolved phrases in alternatives chain with per-module modes and settings panel",
+    "ru": "Трансформирует готовые фразы в alternatives-цепочке с режимами модулей и панелью настроек"
+  },
+  "author": "Maksim Yanin"
+}

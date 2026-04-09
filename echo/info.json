@@ -1,0 +1,10 @@
+{
+  "name": {
+    "en": "Echo Python",
+    "ru": "Echo Python"
+  },
+  "description": {
+    "en": "External plugin sample for MinaChan runtime"
+  },
+  "author": "Maksim Yanin"
+}

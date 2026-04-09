@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Emotion Menu",
+    "ru": "Меню эмоций"
+  },
+  "description": {
+    "en": "Dynamic emotion test menu for character skin",
+    "ru": "Динамическое меню теста эмоций для скина"
+  },
+  "author": "Maksim Yanin"
+}

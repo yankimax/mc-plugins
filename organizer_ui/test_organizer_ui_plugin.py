@@ -5,7 +5,7 @@ import unittest
 
 
 def _load_plugin_module():
-    plugin_path = pathlib.Path(__file__).with_name('plugin.py3')
+    plugin_path = pathlib.Path(__file__).resolve().parent / 'files' / 'organizer_ui' / 'plugin.py3'
     loader = importlib.machinery.SourceFileLoader('organizer_ui_plugin', str(plugin_path))
     spec = importlib.util.spec_from_loader(loader.name, loader)
     if spec is None:

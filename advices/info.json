@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "App Advices",
+    "ru": "Советы по приложению"
+  },
+  "description": {
+    "en": "Requests random app usage advice from character phrase packs",
+    "ru": "Запрашивает случайные советы по использованию из фраз персонажа"
+  },
+  "author": "Maksim Yanin"
+}

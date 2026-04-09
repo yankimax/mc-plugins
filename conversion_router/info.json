@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Conversion Router",
+    "ru": "Маршрутизатор конвертации"
+  },
+  "description": {
+    "en": "Owns the shared conversion speech rules and forwards matched requests to calculator and currency plugins through the alternatives chain.",
+    "ru": "Владеет общими speech-правилами для конвертации и передает совпавшие запросы в калькулятор и валютные плагины через alternatives-цепочку."
+  },
+  "author": "MinaChan Team"
+}

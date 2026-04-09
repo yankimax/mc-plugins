@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "SSH Chat",
+    "ru": "SSH Chat"
+  },
+  "description": {
+    "en": "Handles chat commands like 'ssh 10.0.0.1', 'ssh 10.0.0.1 2222', 'ssh host-name' and 'ssh config'.",
+    "ru": "Обрабатывает команды из чата вроде 'ssh 10.0.0.1', 'ssh 10.0.0.1 2222', 'ssh host-name' и 'ssh config'."
+  },
+  "author": "MinaChan Team"
+}

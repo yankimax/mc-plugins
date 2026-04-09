@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Browser Chat",
+    "ru": "Browser Chat"
+  },
+  "description": {
+    "en": "Uses the MinaChan browser bridge to list, open, switch and close browser tabs from chat commands.",
+    "ru": "Использует MinaChan Browser Bridge, чтобы показывать, открывать, переключать и закрывать вкладки браузера через команды чата."
+  },
+  "author": "MinaChan Team"
+}

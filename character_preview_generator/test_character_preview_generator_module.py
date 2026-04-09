@@ -8,7 +8,7 @@ import unittest
 from PIL import Image
 
 
-MODULE_PATH = pathlib.Path(__file__).with_name('character_preview_generator.py')
+MODULE_PATH = pathlib.Path(__file__).resolve().parent / 'files' / 'character_preview_generator' / 'character_preview_generator.py'
 SPEC = importlib.util.spec_from_file_location('character_preview_generator', MODULE_PATH)
 if SPEC is None or SPEC.loader is None:
     raise RuntimeError('failed to load character_preview_generator module')

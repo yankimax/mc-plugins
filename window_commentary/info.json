@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Window Commentary",
+    "ru": "Комментарии по окнам"
+  },
+  "description": {
+    "en": "Reads open window titles through the unified system_runtime bridge and says short random comments based on the current app mix.",
+    "ru": "Считывает заголовки окон через единый bridge system_runtime и произносит короткие комментарии по текущему набору приложений."
+  },
+  "author": "MinaChan Team"
+}

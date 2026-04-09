@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Weather wttr.in",
+    "ru": "Погода wttr.in"
+  },
+  "description": {
+    "en": "Weather forecast via wttr.in",
+    "ru": "Прогноз погоды через wttr.in"
+  },
+  "author": "Maksim Yanin"
+}

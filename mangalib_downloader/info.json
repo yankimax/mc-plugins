@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "MangaLib Downloader",
+    "ru": "Загрузчик MangaLib"
+  },
+  "description": {
+    "en": "Detects MangaLib and RanobeLib pages in the browser, hints about download support, and saves manga chapters or ranobe FB2 volumes into the configured folder.",
+    "ru": "Определяет страницы MangaLib и RanobeLib в браузере, подсказывает про поддержку скачивания и сохраняет главы манги или тома ранобэ в FB2 в выбранную папку."
+  },
+  "author": "MinaChan Team"
+}
