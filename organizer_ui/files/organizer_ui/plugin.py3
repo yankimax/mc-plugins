@@ -503,6 +503,13 @@ class OrganizerUiPlugin(MinaChanPlugin):
                 'ru': 'Переключить окно карточки задачи органайзера',
             },
         )
+        for rule in (
+            {'en': '(open|show) organizer', 'ru': '(открой|покажи) органайзер'},
+            {'en': '(open|show) tasks', 'ru': '(открой|покажи) задачи'},
+            {'en': 'task list', 'ru': 'список дел'},
+            {'en': 'my tasks', 'ru': 'мои дела'},
+        ):
+            self.register_speech_rule(self.CMD_OPEN, rule)
 
     def _request_core(
         self,

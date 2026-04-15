@@ -155,6 +155,12 @@ class WeatherOpenMeteoPlugin(MinaChanPlugin):
         self.register_speech_rule('weather:forecast-open-meteo', 'open meteo погода в {city:String}')
         self.register_speech_rule('weather:forecast-open-meteo', 'weather open meteo in {city:String}')
         self.register_speech_rule('weather:forecast-open-meteo', 'open meteo weather in {city:String}')
+        self.register_speech_rule('weather:forecast-open-meteo', 'погода в {city:String}')
+        self.register_speech_rule('weather:forecast-open-meteo', 'погода {city:String}')
+        self.register_speech_rule('weather:forecast-open-meteo', 'прогноз погоды в {city:String}')
+        self.register_speech_rule('weather:forecast-open-meteo', 'прогноз {city:String}')
+        self.register_speech_rule('weather:forecast-open-meteo', 'weather in {city:String}')
+        self.register_speech_rule('weather:forecast-open-meteo', 'weather {city:String}')
 
     def on_request_panels(self, sender: str, data: Any, tag: str) -> None:
         self._register_settings_gui()

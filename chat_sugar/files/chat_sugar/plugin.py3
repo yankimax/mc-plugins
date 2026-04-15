@@ -152,6 +152,10 @@ class ChatSugarPlugin(MinaChanPlugin):
             {"ru": "ответь {text:List}", "en": "answer {text:List}"},
         )
         self.register_speech_rule(
+            self.CMD_MAGIC_BALL,
+            {"ru": "магический шар {text:List}", "en": "magic ball {text:List}"},
+        )
+        self.register_speech_rule(
             self.CMD_CHOOSE,
             {"ru": "?(выбери ?из) {left:List} или {right:List}", "en": "?(choose ?from) {left:List} or {right:List}"},
         )

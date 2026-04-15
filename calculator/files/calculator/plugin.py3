@@ -549,11 +549,15 @@ class CalculatorPlugin(MinaChanPlugin):
         'вычисли',
         'сколько будет',
         'калькулятор',
+        r'regex:^\s*[-+]?\d+(?:[.,]\d+)?(?:\s*[+\-*/xх]\s*[-+]?\d+(?:[.,]\d+)?)+\s*$',
+        r'regex:^\s*[-+]?\d+(?:[.,]\d+)?\s*(?:%|процент(?:а|ов)?)\s*(?:от|of)\s*[-+]?\d+(?:[.,]\d+)?\s*$',
     )
     _SPEECH_RULES_EN = (
         'calculate',
         'calculator',
         'how much is',
+        r'regex:^\s*[-+]?\d+(?:[.,]\d+)?(?:\s*[+\-*/x]\s*[-+]?\d+(?:[.,]\d+)?)+\s*$',
+        r'regex:^\s*[-+]?\d+(?:[.,]\d+)?\s*(?:%|percent)\s*(?:of)\s*[-+]?\d+(?:[.,]\d+)?\s*$',
     )
 
     def __init__(self) -> None:

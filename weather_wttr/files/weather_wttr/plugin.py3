@@ -55,8 +55,11 @@ class WeatherWttrPlugin(MinaChanPlugin):
         )
 
         self.register_speech_rule('weather:forecast', 'погода в {city:String}')
+        self.register_speech_rule('weather:forecast', 'погода {city:String}')
         self.register_speech_rule('weather:forecast', 'прогноз погоды в {city:String}')
+        self.register_speech_rule('weather:forecast', 'прогноз {city:String}')
         self.register_speech_rule('weather:forecast', 'weather in {city:String}')
+        self.register_speech_rule('weather:forecast', 'weather {city:String}')
 
     def on_request_panels(self, sender: str, data: Any, tag: str) -> None:
         self._register_settings_gui()

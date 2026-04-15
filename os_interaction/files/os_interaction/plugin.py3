@@ -109,6 +109,14 @@ class OsInteractionPlugin(MinaChanPlugin):
                 'ru': 'Открыть путь в предпочтительном редакторе',
             },
         )
+        self.register_speech_rule(
+            'system:open',
+            {'en': 'open {target:Text}', 'ru': 'открой {target:Text}'},
+        )
+        self.register_speech_rule(
+            'system:close-app',
+            {'en': 'close {name:Text}', 'ru': 'закрой {name:Text}'},
+        )
 
         self.add_locale_listener(
             self._on_locale_changed,

@@ -31,6 +31,14 @@ class AdvicesPlugin(MinaChanPlugin):
                 'ru': 'Советы/Совет по использованию',
             },
         )
+        self.register_speech_rule(
+            'advices:get',
+            {'en': '(tip|advice|usage tip|how to use)', 'ru': '(дай|подскажи|посоветуй) совет'},
+        )
+        self.register_speech_rule(
+            'advices:get',
+            {'en': 'help tip', 'ru': '(как пользоваться|как использовать)'},
+        )
 
     def on_get_advice(self, sender: str, data: Any, tag: str) -> None:
         self.request_say_intent('APP_USAGE_ADVICE')

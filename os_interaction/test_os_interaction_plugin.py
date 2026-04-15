@@ -182,6 +182,7 @@ class OsInteractionPluginContractTest(unittest.TestCase):
         self.plugin.send_message = lambda tag, data=None: calls.append((tag, data))  # type: ignore[method-assign]
         self.plugin.add_listener = lambda *args, **kwargs: None  # type: ignore[method-assign]
         self.plugin.register_command = lambda *args, **kwargs: None  # type: ignore[method-assign]
+        self.plugin.set_event_link = lambda *args, **kwargs: None  # type: ignore[method-assign]
         self.plugin.add_locale_listener = lambda *args, **kwargs: None  # type: ignore[method-assign]
         self.plugin._load_open_aliases = lambda: {}  # type: ignore[method-assign]
 
