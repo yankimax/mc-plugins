@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en": "Browser Tab Watcher",
+    "ru": "Наблюдатель вкладок браузера"
+  },
+  "description": {
+    "en": "Watches browser tab snapshots from MinaChan Browser Bridge and collects YouTube video context after a tab stays open long enough.",
+    "ru": "Следит за снимками вкладок от MinaChan Browser Bridge и собирает контекст YouTube-роликов, если вкладка достаточно долго остается открытой."
+  },
+  "author": "MinaChan Team"
+}

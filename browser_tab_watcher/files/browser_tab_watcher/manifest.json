@@ -1,0 +1,28 @@
+{
+  "id": "browser_tab_watcher",
+  "manifestVersion": 2,
+  "type": "Python",
+  "version": "1.0.0",
+  "runtimeApi": "3",
+  "platforms": [
+    "desktop"
+  ],
+  "bootRole": "feature",
+  "deps": [
+    "speech_command_system",
+    "talking_system"
+  ],
+  "name": {
+    "en": "Browser Tab Watcher",
+    "ru": "Наблюдатель вкладок браузера"
+  },
+  "short-description": {
+    "en": "Collects YouTube context from long-open browser tabs",
+    "ru": "Собирает контекст YouTube из долго открытых вкладок"
+  },
+  "author": "MinaChan Team",
+  "description": {
+    "en": "Watches browser tab snapshots from MinaChan Browser Bridge and collects YouTube video title, author, duration, current time and transcript when available.",
+    "ru": "Следит за снимками вкладок от MinaChan Browser Bridge и собирает название, автора, длительность, текущий таймкод и расшифровку YouTube-ролика, когда она доступна."
+  }
+}

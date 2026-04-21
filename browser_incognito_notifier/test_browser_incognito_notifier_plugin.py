@@ -1,23 +1,14 @@
-import importlib.machinery
-import importlib.util
 import pathlib
 import sys
 import unittest
 
+_PLUGIN_REPO_ROOT = pathlib.Path(__file__).resolve().parents[1]
+if str(_PLUGIN_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_PLUGIN_REPO_ROOT))
 
-def _load_plugin_module():
-    plugin_path = pathlib.Path(__file__).resolve().parent / 'files' / 'browser_incognito_notifier' / 'plugin.py3'
-    loader = importlib.machinery.SourceFileLoader('browser_incognito_notifier_plugin', str(plugin_path))
-    spec = importlib.util.spec_from_loader(loader.name, loader)
-    if spec is None:
-        raise RuntimeError('failed to create import spec for browser_incognito_notifier plugin')
-    module = importlib.util.module_from_spec(spec)
-    sys.modules[loader.name] = module
-    loader.exec_module(module)
-    return module
+from test_support import load_plugin_module
 
-
-_MODULE = _load_plugin_module()
+_MODULE = load_plugin_module(__file__, 'browser_incognito_notifier', 'browser_incognito_notifier_plugin')
 BrowserIncognitoNotifierPlugin = _MODULE.BrowserIncognitoNotifierPlugin
 
 

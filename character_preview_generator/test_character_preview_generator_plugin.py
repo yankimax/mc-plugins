@@ -1,32 +1,14 @@
-import importlib.machinery
-import importlib.util
-import os
 import pathlib
 import sys
 import unittest
 
-_SDK_DIR = (
-    pathlib.Path(__file__).resolve().parents[2]
-    / 'minachan_app'
-    / 'plugins'
-    / 'sdk_python'
-)
-os.environ.setdefault('MINACHAN_SDK_PYTHON_DIR', str(_SDK_DIR))
+_PLUGIN_REPO_ROOT = pathlib.Path(__file__).resolve().parents[1]
+if str(_PLUGIN_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_PLUGIN_REPO_ROOT))
 
+from test_support import load_plugin_module
 
-def _load_plugin_module():
-    plugin_path = pathlib.Path(__file__).resolve().parent / 'files' / 'character_preview_generator' / 'plugin.py3'
-    loader = importlib.machinery.SourceFileLoader('character_preview_generator_plugin', str(plugin_path))
-    spec = importlib.util.spec_from_loader(loader.name, loader)
-    if spec is None:
-        raise RuntimeError('failed to create import spec for character_preview_generator plugin')
-    module = importlib.util.module_from_spec(spec)
-    sys.modules[loader.name] = module
-    loader.exec_module(module)
-    return module
-
-
-_MODULE = _load_plugin_module()
+_MODULE = load_plugin_module(__file__, 'character_preview_generator', 'character_preview_generator_plugin')
 CharacterPreviewGeneratorPlugin = _MODULE.CharacterPreviewGeneratorPlugin
 
 
